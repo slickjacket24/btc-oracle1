@@ -33,7 +33,7 @@ def fetch_and_calculate():
 
     return df.dropna()
 
-api_key = st.text_input("Enter your Gemini API Key:", type="password")
+api_key = st.text_input("Enter your Gemini API Key:", type="password") .strip()
 
 if st.button("Scan Market & Predict"):
     if not api_key:
