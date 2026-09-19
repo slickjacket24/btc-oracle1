@@ -1,0 +1,7 @@
+Plaintext
+streamlit
+ccxt
+pandas
+plotly
+pydantic
+google-genai
